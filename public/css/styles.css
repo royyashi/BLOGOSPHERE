@@ -1,0 +1,67 @@
+.container{
+    background-color: #C2DEDC;
+}
+.navbar{
+    background-color: #C2DEDC;
+    padding:30px;
+    padding-left:10px;
+    margin:0px;
+    position: relative;
+    float:left;
+    width: 100%;
+}
+.navbar-brand{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    position: relative;
+    padding-right: 50px;
+}
+.nav{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 30px;
+    font-family: monospace;
+    color: black ;
+}
+.navbar-header{
+    
+    margin:0px;
+    padding: 0px;
+}
+.body{
+    margin: 0px;
+    padding: 30px;
+}
+.nav-item{
+    padding-left:30px;
+    padding-right:30px;
+}
+.nav a:hover{
+    color: white;
+}
+.content{
+    padding-left:50px;
+    padding-right:30px;
+}
+.butn {
+    top:87%;
+    left:90%;
+    width:100px;
+    height:40px;
+    position: absolute;
+    z-index: 2;
+    
+}
+.btn:hover{
+    color:blue;
+    background-color: whitesmoke;
+}
+.btn-primary{
+    top: 65%;
+    
+    width:100px;
+    height:40px;
+    position: absolute;
+    z-index: 2;
+}
